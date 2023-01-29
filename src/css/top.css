@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Zen+Kurenaido&display=swap');
+
+.TopField {
+    background-image: url(../img/back.jpg);
+    position: absolute;
+    width: 100%;
+    overflow-x: hidden;
+    margin-left: -10px;
+    top: 0;
+}
+
+.TopField .Slider {
+    width: 100%;
+    margin-left: 40%;
+    height: 100vh;
+}
+
+.TopField .Slider .Message {
+    position: absolute;
+    top: 36%;
+    left: 45%;
+    color: white;
+    font-family: 'Hina Mincho', serif;
+    text-align: center;
+}
+
+.TopField .Slider .Message h1 {
+    font-size: 75px;
+    text-shadow: 3px 3px 0 rgb(0, 0, 0);
+    border-bottom: 3px solid white;
+}
+
+.TopField .Slider .Message p {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.TopField .Slider img {
+    width: 60%;
+    height: 100vh;
+    clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0 100%, 0 10%);
+    opacity: 1;
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+
+    body{
+        overflow-x: hidden;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .TopField {
+        background-image: none;
+        position: absolute;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        top: 0;
+    }
+
+    .TopField .Slider {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .TopField .Slider .Message {
+        position: absolute;
+        top: 36%;
+        left: 0;
+        padding: 1em;
+        color: white;
+        font-family: 'Hina Mincho', serif;
+        text-align: center;
+    }
+
+    .TopField .Slider .Message h1 {
+        font-size: 24px;
+        text-shadow: 3px 3px 0 rgb(0, 0, 0);
+        border-bottom: 2px solid white;
+    }
+
+    .TopField .Slider .Message p {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .TopField .Slider img {
+        width: 100%;
+        height: 100vh;
+        opacity: 1;
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%, 0 10%);
+    }
+}
