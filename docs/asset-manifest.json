@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/moriguchifoods/static/css/main.de88b940.css",
+    "main.js": "/moriguchifoods/static/js/main.f74acd4f.js",
+    "static/media/back.jpg": "/moriguchifoods/static/media/back.81c55ecb0868cecaf2f6.jpg",
+    "static/media/6.jpg": "/moriguchifoods/static/media/6.b38d734193ded6c3b6b2.jpg",
+    "static/media/1.jpg": "/moriguchifoods/static/media/1.e88e62370560ba9b7d5b.jpg",
+    "static/media/4.jpg": "/moriguchifoods/static/media/4.296e982395306e635762.jpg",
+    "static/media/5.jpg": "/moriguchifoods/static/media/5.5200f86ebd8de6bb71fc.jpg",
+    "static/media/2.jpg": "/moriguchifoods/static/media/2.03816f6814123954ddd4.jpg",
+    "static/media/3.jpg": "/moriguchifoods/static/media/3.ff9c09233abf1dbab8c9.jpg",
+    "static/media/slick.svg": "/moriguchifoods/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/moriguchifoods/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/moriguchifoods/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/moriguchifoods/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/moriguchifoods/index.html",
+    "main.de88b940.css.map": "/moriguchifoods/static/css/main.de88b940.css.map",
+    "main.f74acd4f.js.map": "/moriguchifoods/static/js/main.f74acd4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de88b940.css",
+    "static/js/main.f74acd4f.js"
+  ]
+}
