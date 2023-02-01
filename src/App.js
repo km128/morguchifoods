@@ -9,7 +9,7 @@ function App() {
 
   const getHeader = () =>{
     console.log(location.pathname)
-    return location.pathname === "/morguchifoods" ? <Header/>: <OtherHeader/>;
+    return location.pathname === "/morguchifoods/" ? <Header/>: <OtherHeader/>;
   }
   return (
     <div className="App">
