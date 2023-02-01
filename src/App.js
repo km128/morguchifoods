@@ -8,6 +8,7 @@ function App() {
   const location = useLocation();
 
   const getHeader = () =>{
+    console.log(location.pathname)
     return location.pathname === "/morguchifoods" ? <Header/>: <OtherHeader/>;
   }
   return (

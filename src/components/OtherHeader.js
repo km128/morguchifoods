@@ -20,7 +20,7 @@ const OtherHeader = () => {
             </div>
             <div className="OtherMenuField">
                 <div className="OtherMenu">
-                    <Link to="/morguchifoods/"><o><HomeOutlinedIcon style={{ fontSize: "22px", marginTop: "3px", marginRight: "5px" }} />{topEdit.menu.home}</o></Link>
+                    <Link to="/morguchifoods"><o><HomeOutlinedIcon style={{ fontSize: "22px", marginTop: "3px", marginRight: "5px" }} />{topEdit.menu.home}</o></Link>
                 </div>
                 <div className="OtherMenu">
                     <Link to="/morguchifoods/information"><o><InfoOutlinedIcon style={{ fontSize: "22px", marginTop: "3px", marginRight: "5px" }} />{topEdit.menu.information}</o></Link>
