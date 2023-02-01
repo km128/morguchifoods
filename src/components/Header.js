@@ -6,38 +6,40 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import BurgerMenu from './BurgerMenu';
+import topEdit from "../edits/TopPage.json";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
         <div className='HeaderField'>
             <div className="Burger">
-                <BurgerMenu width={250}/>
+                <BurgerMenu width={250} />
             </div>
             <div className="Logo">
-                有限会社モリグチフーズ
+                {topEdit.topTitle}
             </div>
             <div className="MenuField">
                 <div className="Menu">
-                    <m><HomeOutlinedIcon style={{fontSize:"22px", marginTop:"3px",marginRight:"5px"}}/>ホーム</m> 
+                    <Link to="/morguchifoods/"><m><HomeOutlinedIcon style={{ fontSize: "22px", marginTop: "3px", marginRight: "5px" }} />{topEdit.menu.home}</m></Link>
                 </div>
                 <div className="Menu">
-                    <m><InfoOutlinedIcon style={{fontSize:"22px", marginTop:"3px",marginRight:"5px"}}/>会社案内</m>
+                    <Link to="/morguchifoods/information"><m><InfoOutlinedIcon style={{ fontSize: "22px", marginTop: "3px", marginRight: "5px" }} />{topEdit.menu.information}</m></Link>
                 </div>
                 <div className="Menu">
-                    <m><DescriptionOutlinedIcon style={{fontSize:"22px", marginTop:"3px",marginRight:"5px"}}/>業務内容</m>
+                    <m><DescriptionOutlinedIcon style={{ fontSize: "22px", marginTop: "3px", marginRight: "5px" }} />{topEdit.menu.workContent}</m>
                 </div>
                 <div className="Menu">
-                    <m><EmailOutlinedIcon style={{fontSize:"22px", marginTop:"3px",marginRight:"5px"}}/>お問い合わせ</m>
+                    <m><EmailOutlinedIcon style={{ fontSize: "22px", marginTop: "3px", marginRight: "5px" }} />{topEdit.menu.contact}</m>
                 </div>
             </div>
             <div className="ButtomField">
                 <div className="Link">
-                    <a href='https://ja-jp.facebook.com/people/%E6%9C%89%E9%99%90%E4%BC%9A%E7%A4%BE%E3%83%A2%E3%83%AA%E3%82%B0%E3%83%81%E3%83%95%E3%83%BC%E3%82%BA/100063622140446/'>
-                    <FacebookIcon style={{fontSize:"22px",color:"blue"}}/>
+                    <a href={topEdit.facebookURL}>
+                        <FacebookIcon style={{ fontSize: "22px", color: "blue" }} />
                     </a>
                 </div>
                 <div className="CopyRight">
-                copyright @ MoriguchiFoods all rights reserved.
+                    {topEdit.copyright}
                 </div>
             </div>
         </div>

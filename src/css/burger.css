@@ -7,6 +7,10 @@
   top: 40%;
 }
 
+.bm-menu{
+  overflow: hidden;
+}
+
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #373a47;

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Zen+Kurenaido&display=swap');
+.OtherHeaderField {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    padding: 0;
+    margin-left: -10px;
+    margin-top: -10px;
+    z-index: 10;
+    font-family: 'Zen Kurenaido', sans-serif;
+    background-color: rgba(240, 237, 237, 0.6);
+    display: flex;
+    justify-content: space-around;
+}
+
+.OtherHeaderField .OtherLogo {
+    color: #866b57;
+    font-weight: 600;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Hina Mincho', serif;
+    width: 420px;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #a59385;
+  }
+
+.OtherHeaderField .OtherBurger{
+    display: none;
+}
+
+.OtherHeaderField .OtherMenuField {
+    font-size: 18px;
+    width: 35%;
+    height: 100%;
+    color: #a59385;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+o{
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    transition: all 0.2s ease;
+    margin-left: 10%;
+}
+o::after {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    content: '';
+    width: 80%;
+    height: 1px;
+    background: #a59385;
+    transform: scale(0, 1);
+    transform-origin: right top;
+    transition: transform .4s;
+
+}
+
+o:hover::after {
+    transform: scale(1, 1);
+    transform-origin: left top;
+}
+
+o:hover{
+    top: -5px;
+}
+
+@media screen and (max-width: 959px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .OtherHeaderField{
+        height: 80px;
+        z-index: 10;
+        font-family: 'Zen Kurenaido', sans-serif;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .OtherHeaderField .OtherLogo {
+        width: 70%;
+        display: flex;
+        color: #866b57;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Hina Mincho', serif;
+        align-items: center;
+        justify-content: left;
+        left: 0;
+        height: 100%;
+        position: absolute;
+    }
+    
+    .OtherHeaderField .OtherMenuField {
+        font-size: 16px;
+        width: 100%;
+        color: #a59385;
+        display: none;
+        margin-left: -10px;
+    }
+    o{
+        padding: 20px;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        transition: all 0.2s ease;
+        margin-left: 0;
+    }
+    o::after {
+        position: absolute;
+        bottom: 5px;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: #a59385;
+        transform: scale(0, 1);
+        transform-origin: right top;
+        transition: transform .4s;
+    
+    }
+    
+    o:hover::after {
+        transform: scale(1, 1);
+        transform-origin: left top;
+    }
+    
+    o:hover{
+        left: 5px;
+        font-size: 18px;
+    }
+    
+    .OtherHeaderField .ButtomField{
+        display: none;
+        position: absolute;
+        top: 93%;
+        width: 100%;
+        margin: -50px;
+    }
+    
+    .OtherHeaderField .ButtomField .Link{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    
+    .OtherHeaderField .ButtomField .CopyRight{
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .OtherHeaderField .OtherBurger{
+        display: block;
+        width: 100%;
+    }
+}
