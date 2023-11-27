@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/morguchifoods/static/css/main.35fd307f.css",
+    "main.css": "/morguchifoods/static/css/main.174f3876.css",
     "main.js": "/morguchifoods/static/js/main.8baced3d.js",
     "static/media/8.jpg": "/morguchifoods/static/media/8.81e70a2e3b5edc6d9335.jpg",
     "static/media/2.jpg": "/morguchifoods/static/media/2.4336ca84cc05038235d0.jpg",
@@ -19,11 +19,11 @@
     "static/media/slick.ttf": "/morguchifoods/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/morguchifoods/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/morguchifoods/index.html",
-    "main.35fd307f.css.map": "/morguchifoods/static/css/main.35fd307f.css.map",
+    "main.174f3876.css.map": "/morguchifoods/static/css/main.174f3876.css.map",
     "main.8baced3d.js.map": "/morguchifoods/static/js/main.8baced3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.35fd307f.css",
+    "static/css/main.174f3876.css",
     "static/js/main.8baced3d.js"
   ]
 }
