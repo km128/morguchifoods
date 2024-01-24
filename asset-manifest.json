@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/morguchifoods/static/css/main.91a9c6cb.css",
-    "main.js": "/morguchifoods/static/js/main.b2bb0d94.js",
-    "static/media/10.jpg": "/morguchifoods/static/media/10.71df0b51874fe2a50804.jpg",
+    "main.js": "/morguchifoods/static/js/main.316b7bce.js",
+    "static/media/housou.jpg": "/morguchifoods/static/media/housou.41ef0db8345c6e591e4c.jpg",
+    "static/media/keiryou.jpg": "/morguchifoods/static/media/keiryou.95e10a5d2c73c9d33d5c.jpg",
+    "static/media/honenuki.jpg": "/morguchifoods/static/media/honenuki.c35d1952ded58f99e157.jpg",
+    "static/media/seikei.jpg": "/morguchifoods/static/media/seikei.7860c64009102cf219dd.jpg",
     "static/media/2.jpg": "/morguchifoods/static/media/2.4336ca84cc05038235d0.jpg",
-    "static/media/7.jpg": "/morguchifoods/static/media/7.7434e07fab57269aa4a7.jpg",
     "static/media/6.jpg": "/morguchifoods/static/media/6.b5f6ec462a8d4d94bb2c.jpg",
     "static/media/4.jpg": "/morguchifoods/static/media/4.7ad40544e62638049db1.jpg",
     "static/media/5.jpg": "/morguchifoods/static/media/5.20bccd315a2750a852cb.jpg",
@@ -12,9 +14,7 @@
     "static/media/1.jpg": "/morguchifoods/static/media/1.1794747cac123b1ea1b4.jpg",
     "static/media/adopt.png": "/morguchifoods/static/media/adopt.2d31cd6ddc35b9bc921d.png",
     "static/media/work.png": "/morguchifoods/static/media/work.0e516080e6b294f90a42.png",
-    "static/media/9.jpg": "/morguchifoods/static/media/9.27ccbabd8e734b698485.jpg",
     "static/media/info.png": "/morguchifoods/static/media/info.53edaf3bfaf2b5207a6c.png",
-    "static/media/11.jpg": "/morguchifoods/static/media/11.4c7ddb5920225c879632.jpg",
     "static/media/logo1.png": "/morguchifoods/static/media/logo1.ae502d0f65fc564c45a5.png",
     "static/media/slick.svg": "/morguchifoods/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/morguchifoods/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -22,10 +22,10 @@
     "static/media/slick.woff": "/morguchifoods/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/morguchifoods/index.html",
     "main.91a9c6cb.css.map": "/morguchifoods/static/css/main.91a9c6cb.css.map",
-    "main.b2bb0d94.js.map": "/morguchifoods/static/js/main.b2bb0d94.js.map"
+    "main.316b7bce.js.map": "/morguchifoods/static/js/main.316b7bce.js.map"
   },
   "entrypoints": [
     "static/css/main.91a9c6cb.css",
-    "static/js/main.b2bb0d94.js"
+    "static/js/main.316b7bce.js"
   ]
 }
